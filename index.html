@@ -2,24 +2,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>yrkim</title>
+  <!--JQuery-->
+  <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <!--Fontawesome-->
+  <script src="https://kit.fontawesome.com/318cf804eb.js" crossorigin="anonymous"></script>
+  <!--Custom JS & CSS-->
   <link rel="stylesheet" href="/style.css">
+  <script defer src="/wow.js"></script>
+  <script defer src="/script.js"></script>
+  <!--FeatherLight-->
+  <link
+  href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css"
+  type="text/css"
+  rel="stylesheet"
+/>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script
+  src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
 </head>
 <body>
-    <div class="loading_main">
-      <div class="loading_main_icon">
-        <span class="circle"></span>
-        <span class="bar"></span>
+  <div class="container">
+    <section id="loading">
+        <div class="loading_main">
+          <div class="loading_main_icon">
+            <div class="ball">
+            </div>
+            <span class="bar">
+            </span>
+          </div>
+          <div class="ball_common ball1"><h1>START</h1></div>
+          <div class="ball_common ball2"><h1>INTRODUCE</h1></div>
+          <div class="ball_common ball3"><h1>MY SELF</h1></div>
+          <i class="fa-solid fa-angles-down"></i>
       </div>
-    </div>
-    <div class="load_1">
-      <span class="loading_1_circle"></span>
-    </div>
-    <div class="main"></div>
-    <section class="about"></section>
-    <section class="experience"></section>
-    <div class="project"></div>
-    <div class="contact"></div>
-    <footer class="footer"></footer>
+    </section>
+    <section id="about">
+        <div class="section_common wow">
+          <h1>ABOUT</h1>
+          <hr>
+          <div class="about_box">
+            <div class="about_box_text">
+              <h3><span>Hi!</span> My name is yerim kim!</h3>
+              <p>
+                <span><i class="fas fa-check"></i> I am 25 years old.</span>
+                <span><i class="fas fa-check"></i> My MBTI is ISFP. That's why I like beds.</span>
+                <span><i class="fas fa-check"></i> I studied multimedia. And I finally graduated this year.</span>
+                <span><i class="fas fa-check"></i> I'm still studying to be a full front-end developer.</span>
+              </p>
+            </div>
+            <div class="about_box_img wow">
+            </div>
+          </div>
+          <hr>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="section_common wow">
+          <h1>EXPERIENCE</h1>
+          <hr>
+          <div class="experience_box">
+            <div class="experience_box_tabs">
+              <div class="square wow">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="square_box">
+                    <img src="/imgs/team.png" alt="team">
+                    <p>
+                      I had a lot of team project experience when I was in college and I played both team leader and team member.
+                    </p>
+                  </div>
+              </div>
+              <div class="square wow">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="square_box">
+                    <img src="/imgs/communication.png" alt="commu">
+                    <p>
+                      I have experienced various part-time jobs.I'm good at communicating with customers.
+                    </p>
+                  </div>
+              </div>
+              <div class="square wow">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="square_box">
+                  <img src="/imgs/travel.png" alt="travel">
+                  <p>
+                    I like to travel.I've had various experiences in many different regions.
+                  </p>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <hr>
+        </div>
+    </section>
+    <section id="project">
+      <div class="section_common wow">
+        <h1>PROJECT</h1>
+        <hr>
+        <div class="project-box">
+          <div class="project-box-item wow">
+            <div>
+              <a href="/project/project1.html" data-featherlight="iframe">
+                <img src="/imgs/project1.jpg" alt="primg">
+              </a>
+            </div>
+            <p>Application</p>
+          </div>
+          <div class="project-box-item wow">
+            <div>
+              <a href="/project/project2.html" data-featherlight="iframe">
+                <img src="/imgs/project2.png" alt="primg">
+              </a>
+            </div>
+            <p>3D Game</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section id="contact">
+        <div class="section_common wow">
+          <h1>CONTACT</h1>
+          <hr>
+          <div class="contact_box">
+            <h1>kym5570@naver.com</h1>
+            <p>
+              Looking for a front-end developer with capabilities and experience? Feel free to contact me if you have any suggestions for joining and collaborating!<br> If you send me an e-mail about a wonderful thing to do together, I will reply within 1-2 days.<br>Thank you.
+            </p>
+            <div class="sns">
+              <a href="https://blog.naver.com/yerim_0316"><i class="fab fa-blogger-b"></i></a>
+              <a href="https://github.com/yelim03"><i class="fab fa-github"></i></a>
+              <a href="https://www.notion.so/ac9c2f33b5da47329bf42052157db26d"><i class="fa-solid fa-n"></i></a>
+            </div>
+          </div>
+          <div class="footer">
+            <h3>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</h3>
+          </div>
+        </div>
+    </section>
+  </div>
+  <ul class="gnb">
+    <li><a href="#loading">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#experience">EXPERIENCE</a></li>
+    <li><a href="#project">PROJECT</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <div class="trigger">
+    <span></span>
+    <span></span>
+  </div>
 </body>
 </html>
